@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.82.0">
+  <title>Sidebars · Bootstrap v5.0</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sidebars/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="/static/css/sidebars.css" rel="stylesheet">
+  <link href="/static/css/mystyle.css" rel="stylesheet">
+</head>
+
+<body class="no-flex">
+
+
+
+  <div class="headers-catalog">
+    <div class="menu-elements"> <a href="/"
+        class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+
+        <span class="fs-5 fw-semibold">Главная</span>
+      </a></div>
+    <div class="menu-elements">
+      <a href="{% url " pc" %}"
+        class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+        <span class="fs-5 fw-semibold">Компьютеры</span>
+      </a>
+    </div>
+    <div class="menu-elements">
+      <a href="phone" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+        <span class="fs-5 fw-semibold">Телефоны</span>
+      </a>
+    </div>
+  </div>
+
+
+
+  <div class="drop-list">
+    <div class="left-list">
+      <div class="p-3 bg-white" style="width: 280px;">
+
+        <ul class="list-unstyled ps-0">
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#home-collapse" aria-expanded="true">
+              Для пк
+            </button>
+            <div class="collapse show" id="home-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">Коврики</a></li>
+                <li><a href="#" class="link-dark rounded">Лампы</a></li>
+                <li><a href="#" class="link-dark rounded">USB приколюхи</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#dashboard-collapse" aria-expanded="false">
+              Для мобилок
+            </button>
+            <div class="collapse" id="dashboard-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">Наушники</a></li>
+                <li><a href="#" class="link-dark rounded">джойстики</a></li>
+                <li><a href="#" class="link-dark rounded">Портативки</a></li>
+                <li><a href="#" class="link-dark rounded">Провода</a></li>
+              </ul>
+            </div>
+          </li>
+
+
+
+        </ul>
+      </div>
+    </div>
+    <div class="right-list">
+      <div class="p-3 bg-white" style="width: 280px;">
+
+        <ul class="list-unstyled ps-0">
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#home-collapse" aria-expanded="true">
+              Фильтр
+            </button>
+            <div class="mb-3">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="form-check-label" for="dropdownCheck">
+                  Remember me
+                </label>
+              </div>
+
+              <div class="collapse show" id="home-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li><a href="#" class="link-dark rounded">Коврики</a></li>
+                  <li><a href="#" class="link-dark rounded">Лампы</a></li>
+                  <li><a href="#" class="link-dark rounded">USB приколюхи</a></li>
+                </ul>
+              </div>
+          </li>
+          <li class="mb-1">
+            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+              data-bs-target="#dashboard-collapse" aria-expanded="false">
+              Для мобилок
+            </button>
+            <div class="collapse" id="dashboard-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-dark rounded">Наушники</a></li>
+                <li><a href="#" class="link-dark rounded">джойстики</a></li>
+                <li><a href="#" class="link-dark rounded">Портативки</a></li>
+                <li><a href="#" class="link-dark rounded">Провода</a></li>
+              </ul>
+            </div>
+          </li>
+
+
+
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+  <script src="/static/js/bootstrap.bundle.min.js"></script>
+
+  <script src="/static/js/sidebars.js"></script>
+</body>
+
+</html>
