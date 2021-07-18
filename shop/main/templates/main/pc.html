@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.82.0">
+  <title>Sidebars · Bootstrap v5.0</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sidebars/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="/static/css/sidebars.css" rel="stylesheet">
+  <link href="/static/css/mystyle.css" rel="stylesheet">
+</head>
+
+<body class="no-flex">
+
+
+  <div class="headers-catalog">
+    <div class="menu-elements"> <a href="/"
+        class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+
+        <span class="fs-5 fw-semibold">Главная</span>
+      </a></div>
+    <div class="menu-elements">
+      <a href="phone" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+        <span class="fs-5 fw-semibold">Телефоны</span>
+      </a>
+    </div>
+    <div class="menu-elements">
+      <a href="accessories" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+        <span class="fs-5 fw-semibold">Аксессуары</span>
+      </a>
+    </div>
+  </div>
+
+
+
+
+  <div class="p-3 bg-white" style="width: 280px;">
+
+    <ul class="list-unstyled ps-0">
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+          data-bs-target="#home-collapse" aria-expanded="true">
+          Системные блоки
+        </button>
+        <div class="collapse show" id="home-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">Цена от 1500до 2000</a></li>
+            <li><a href="#" class="link-dark rounded">Цена от 1000 до 1500</a></li>
+            <li><a href="#" class="link-dark rounded">Цена от 500 до 1000</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+          data-bs-target="#dashboard-collapse" aria-expanded="false">
+          Комплектующие
+        </button>
+        <div class="collapse" id="dashboard-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">Жосткие диски</a></li>
+            <li><a href="#" class="link-dark rounded">Системные платы</a></li>
+            <li><a href="#" class="link-dark rounded">Видео карты</a></li>
+            <li><a href="#" class="link-dark rounded">Проццесоры</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+          data-bs-target="#orders-collapse" aria-expanded="false">
+          Переферия
+        </button>
+        <div class="collapse" id="orders-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">Мониторы</a></li>
+            <li><a href="#" class="link-dark rounded">Клавиатуры</a></li>
+            <li><a href="#" class="link-dark rounded">Мышки</a></li>
+            <li><a href="#" class="link-dark rounded">Колонки</a></li>
+            <li><a href="#" class="link-dark rounded">Принтеры</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="border-top my-3"></li>
+
+    </ul>
+  </div>
+
+
+
+
+  <script src="/static/js/bootstrap.bundle.min.js"></script>
+
+  <script src="/static/js/sidebars.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+.headers-catalog {
+    display: flex;
+    justify-content: space-evenly;
+}
+.no-flex {
+    display: block;
+}
+.drop-list {
+    display: flex;
+}
